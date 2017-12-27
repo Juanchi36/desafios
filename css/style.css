@@ -152,9 +152,12 @@ p{
 	float: right;
 	width: 50%;
 	background-color: #D6D3D3;
-	padding: 40px 20px 40px 20px;
+	padding: 20px 20px 40px 20px;
 
 
+}
+#form h2{
+	margin-bottom: 20px;
 }
 	
 .doble{
@@ -173,5 +176,5 @@ input, textarea{
   	border-radius: 4px;
 }
 #input{
-	margin-bottom: 9px;
+	margin-bottom: 22px;
 }
