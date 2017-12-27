@@ -2,6 +2,8 @@
 	margin: 0px;
 	padding: 0px;
 	font-family: 'Poiret One', cursive;
+	color: black;
+	box-sizing: border-box;
 }
 
 body{
@@ -9,14 +11,23 @@ body{
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-attachment: fixed;
+	height: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 header{
 	
 	width: 100%;
-	height: 600px;
+	height: 630px;
 	text-align: right;
 
+}
+header nav ul{
+	margin-top: 20px;
+	margin-left: 5px;
 }
 
 section{
@@ -24,12 +35,83 @@ section{
 	height: 1000px;
 	background-color: #EEE8E8;
 
+
+}
+.arthistoria{
+	background-color: #C2C2C2;
+	width: 100%;
+	text-align: right;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+.arthistoria p{
+	
+	margin: 60px 20px 0px 60px;
+}
+.arthistoria a{
+	float: left;
+}
+.artnoticias{
+	background-color: #D6D3D3;
+	width: 100%;
+	text-align: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+
 }
 
+.artnoticias h2{
+	margin-bottom: 20px;
+}
+.artnoticias a{
+	float: right;
+}
+.artnoticias p{
+	margin-top: 20px;
+}
+.artvideos{
+	background-color: #D6D3D3;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 50%;
+	float: left;
+	
+}
+.artvideos a{
+	float: right;
+}
+.artvideos h2{
+	margin-bottom: 20px;
+}
+.artvideos p{
+ 	margin-top: 20px;
+}
+.artdiscografia{
+	background-color: #C2C2C2;
+	width: 100%;
+	padding-top: 20px;
+	text-align: right;
+	padding-bottom: 20px;
+
+
+}
+.artdiscografia a{
+	float: left;
+}
+#uldisco{
+	display: inline-block;
+	list-style: none;
+	padding-top: 20px;
+}
 h1{
 	color: black;
-	z-index: 100;
-	font-size: 20px;
+	float: right;
+	font-size: 24px;
+	text-align: right;
+	margin-top: 50px;
 }
 
 nav{
@@ -38,4 +120,58 @@ nav{
 }
 a{
 	text-decoration: none;
+	font-weight: bold;
+
+}
+
+a:hover{
+	font-family: 'Bungee', cursive;
+	color: #3E3C3C;
+	
+
+
+}
+footer {
+  	width: 100%;
+ 	height: 205px;
+ 	
+}
+li{
+	display: inline-block;
+}
+#historia{
+	margin-right: 20px;
+}
+.aderecho{
+	margin-right: 20px;
+}
+p{
+	font-size: 20px;
+}
+#form{
+	float: right;
+	width: 50%;
+	background-color: #D6D3D3;
+	padding: 40px 20px 40px 20px;
+
+
+}
+	
+.doble{
+	overflow: visible;
+	
+
+}
+input, textarea{
+	border: 1px solid #DBE1EB;
+  	font-size: 18px;
+  	font-family: Arial, Verdana;
+  	padding-left: 7px;
+  	padding-right: 7px;
+  	padding-top: 10px;
+  	padding-bottom: 10px;
+  	border-radius: 4px;
+}
+#input{
+	margin-bottom: 9px;
 }
