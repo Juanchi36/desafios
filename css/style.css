@@ -147,6 +147,7 @@ li{
 }
 p{
 	font-size: 20px;
+	font-weight: bold;
 }
 #form{
 	float: right;
@@ -177,4 +178,7 @@ input, textarea{
 }
 #input{
 	margin-bottom: 22px;
+}
+strong{
+	font-weight: bolder;
 }
