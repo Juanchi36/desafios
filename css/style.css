@@ -71,8 +71,7 @@ section{
 	background-color: #D6D3D3;
 	width: 100%;
 	text-align: left;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding: 40px 80px 40px 80px;
 
 
 }
@@ -91,6 +90,7 @@ section{
 }
 .artnoticias p{
 	margin-top: 20px;
+	text-align: justify;
 }
 .artvideos{
 	background-color: #D6D3D3;
@@ -102,9 +102,7 @@ section{
 	
 }
 
-.artvideos h2{
-	margin-bottom: 20px;
-}
+
 .artvideos p{
  	margin-top: 20px;
 }
@@ -112,7 +110,7 @@ section{
 	background-color: #C2C2C2;
 	width: 100%;
 	text-align: right;
-	padding: 20px 80px 20px 80px;
+	padding: 40px 100px 40px 100px;
 
 
 }
@@ -192,11 +190,13 @@ p{
 	
 .doble{
 	overflow: hidden;
+	padding: 60px;
 	
 
 }
 .histdoble{
 	overflow: hidden;
+	padding: 60px;
 
 }
 .histdoble p{
@@ -247,4 +247,7 @@ header nav ul ul li:hover{
 	background-color: black;
 	color: white;
 
+}
+iframe{
+	margin-top: 20px;
 }
