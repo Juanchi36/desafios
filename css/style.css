@@ -28,7 +28,7 @@ header{
 
 }
 header nav ul{
-padding-top: 20px;
+	padding-top: 20px;
     margin-left: 5px;
 }
 
@@ -42,7 +42,7 @@ section{
 	/*background-color: #C2C2C2;*/
 	width: 50%;
 	text-align: justify;
-	padding-top: 20px;
+	padding-top: 40px;
 	padding-bottom: 20px;
 
 }
@@ -75,7 +75,7 @@ section{
 	background-color: #D6D3D3;
 	width: 100%;
 	text-align: left;
-	padding: 40px 100px 40px 100px;
+	padding: 40px 140px 40px 140px;
 	overflow: hidden;
 
 
@@ -88,6 +88,7 @@ section{
 .artnoticias h2{
 	
 	margin-left: 60px;
+	padding-top: 20px;
 }
 .artnoticias a{
 	margin-left: 60px;
@@ -116,7 +117,7 @@ section{
 	background-color: #C2C2C2;
 	width: 100%;
 	text-align: right;
-	padding: 40px 100px 40px 100px;
+	padding: 60px 160px 40px 160px;
 
 
 }
@@ -124,14 +125,17 @@ section{
 	margin-right: 60px;
 	
 }
+.artdiscografia h3{
+	font-size: 20px;
+}
+.artdiscografia table{
+	text-align: center;
+}
 #discografia{
 	margin-right: 60px;
-}
-#uldisco{
-	display: inline-block;
-	list-style: none;
 	padding-top: 20px;
 }
+
 h1{
 	color: black;
 	
@@ -158,14 +162,18 @@ a{
 footer {
   	width: 100%;
   	padding: 20px;
-  	background-color: #C2C2C2;
-  	text-align: center;
+  	/*background-color: #C2C2C2;*/
+	text-align: center;
+	 background:-webkit-gradient(linear, 74% 20%, 45% 21%, from(#C5C3C1), to(#000000));
+	opacity: 0.9;
+	
  	
 }
 footer ul li{
 	margin-top: 40 px;
 	padding: 10px;
 	font-size: 22px;
+	color: #fff;
 }
 
 li{
@@ -173,6 +181,7 @@ li{
 }
 #historia{
 	margin-right: 60px;
+	padding-top: 20px;
 }
 .aderecho{
 	margin-right: 60px;
@@ -228,7 +237,7 @@ iframe{
 	margin-top: 20px;
 }
 h3{
-	font-size: 1.30em;
+	font-size: 1.70em;
 	padding: 25px;
 }
 #noti1, #noti2, #noti3{
@@ -260,6 +269,7 @@ header nav ul .lidisc:hover ul{
 header nav ul ul li a{
 	white-space: nowrap;
 }
+
 a:hover{
 	background-color: black;
 	color: white;
@@ -274,3 +284,166 @@ header nav ul ul li:hover{
 
 }
 
+/* Modifications 13-01 */
+.container {
+	width:960px;
+	margin:auto;
+}
+a {
+	outline:none;
+}
+
+@keyframes bounceInLeft {
+	from, 60%, 75%, 90%, to {
+	  animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+	}
+  
+	0% {
+	  opacity: 0;
+	  transform: translate3d(-3000px, 0, 0);
+	}
+  
+	60% {
+	  opacity: 1;
+	  transform: translate3d(25px, 0, 0);
+	}
+  
+	75% {
+	  transform: translate3d(-10px, 0, 0);
+	}
+  
+	90% {
+	  transform: translate3d(5px, 0, 0);
+	}
+  
+	to {
+	  transform: none;
+	}
+  }
+#da{
+	animation-name: bounceInLeft;
+	animation-duration: 1s;
+	position: absolute;
+    bottom: 10%;
+    left: 90px;
+    /* right: 0; */
+    /* margin: auto; */
+    text-align: center;
+    width: 800px;
+    font-size: 123px;
+    color: #b0b0b0;
+    text-shadow: 7px 0px 2px #000;
+    font-family: 'Sedgwick Ave Display', cursive;
+	letter-spacing: 6px;
+	
+}
+@keyframes bounceInRight {
+	from, 60%, 75%, 90%, to {
+	  animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+	}
+  
+	from {
+	  opacity: 0;
+	  transform: translate3d(3000px, 0, 0);
+	}
+  
+	60% {
+	  opacity: 1;
+	  transform: translate3d(-25px, 0, 0);
+	}
+  
+	75% {
+	  transform: translate3d(10px, 0, 0);
+	}
+  
+	90% {
+	  transform: translate3d(-5px, 0, 0);
+	}
+  
+	to {
+	  transform: none;
+	}
+  }
+#ya{
+	animation-name: bounceInRight;
+	animation-duration: 1s;
+	position: absolute;
+    bottom: 10%;
+    left: 500px;
+    /* right: 0; */
+    /* margin: auto; */
+    text-align: center;
+    width: 800px;
+    font-size: 123px;
+    color: #b0b0b0;
+    text-shadow: 7px 0px 2px #000;
+    font-family: 'Sedgwick Ave Display', cursive;
+    letter-spacing: 6px;
+}
+
+header {
+	padding-top: 0;
+    padding-right: 0;
+	padding-left: 0;
+	position: relative;
+}
+
+header nav ul{
+	text-align:center;
+	background: rgba(0, 0, 0, 0.6);
+	
+    padding: 20px;
+}
+
+header nav ul li {		
+	text-transform:uppercase;
+}
+
+	header > nav > ul > li > a{		
+		font-size:21px;
+		padding: 10px 12px;
+		letter-spacing: 5px;
+		color:#fff;
+	}
+
+	header > nav > ul ul {
+		background-color:#fff;
+	}
+
+		header > nav > ul ul li{
+			margin-bottom: 10px;
+			text-align: left;
+		}
+			
+			header > nav > ul ul li:hover {
+				background-color:transparent;	
+			}
+
+				header > nav > ul ul li a {
+					display:block;
+					padding: 6px 14px;
+					letter-spacing: 3px;
+					font-size: 13px;
+				}
+
+				header > nav > ul ul li a:hover {
+					background-color:#000;
+					color:#fff;
+				}
+
+				/* Table properties */
+
+				table td, table th {
+					border: 3px solid rgba(22, 22, 22, 0.425);
+					font-size: 29px;
+					padding: 20px;
+					
+				}
+				table td{
+					font-size: 24px;
+					font-weight: bold;
+				}
+				table{
+					padding-top: 40px;
+					padding-bottom: 40px;
+				}
