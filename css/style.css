@@ -50,11 +50,10 @@ section{
 	
 	margin: 60px 20px 0px 60px;
 }
-.arthistoria{
-	float: left;
-}
+
+
 .arthistoria2{
-	float: right;
+	
 	padding-top: 8px;
 	padding-right: 40px;
 }
@@ -64,6 +63,8 @@ section{
 }
 #titnoticias{
 	text-align: left;
+	display: block;
+	margin-bottom: 45px;
 	
 }
 #ahist{
@@ -72,10 +73,11 @@ section{
 
 
 .artnoticias{
+	display: flex;
 	background-color: #D6D3D3;
 	width: 100%;
 	text-align: left;
-	padding: 40px 140px 40px 140px;
+	padding: 40px 140px 80px 140px;
 	overflow: hidden;
 
 
@@ -104,8 +106,7 @@ section{
 	width: 100%;
 	padding: 20px;
 	width: 50%;
-	float: left;
-	
+	justify-content: space-around;
 	
 }
 
@@ -196,22 +197,24 @@ p{
 	width: 50%;
 	background-color: #D6D3D3;
 	padding: 38px 20px 40px 20px;
-	float: right;
-
+	justify-content: space-around;
 }
 #form h2{
 	margin-bottom: 20px;
 }
 	
 .doble{
-	overflow: hidden;
+	display: flex;
 	padding: 60px;
+	justify-content: center;
+	padding: 80px 140px 60px 140px;
 	
 
 }
 .histdoble{
-	overflow: hidden;
+	display: flex;
 	padding: 60px;
+	margin-bottom: 20px;
 
 }
 .histdoble p{
@@ -242,13 +245,17 @@ h3{
 }
 #noti1, #noti2, #noti3{
 	width: 33%;
-	float: left;
+	
 	margin-top: 20px;
 	
 }
 #noti2{
 	border-left: 3px solid rgba(22, 22, 22, 0.425);
 	border-right: 3px solid rgba(22, 22, 22, 0.425);
+	margin-top: 130px;
+}
+#noti3{
+	margin-top: 130px;
 }
 
 
