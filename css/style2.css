@@ -65,7 +65,26 @@ header nav a:hover{
 .grid div img{
     opacity: 0.85;
 }
-
+footer {
+    width: 100%;
+    padding: 20px;
+    /*background-color: #C2C2C2;*/
+  text-align: center;
+   background:-webkit-gradient(linear, 74% 20%, 45% 21%, from(#C5C3C1), to(#000000));
+  opacity: 0.9;
+  
+   
+}
+footer ul li{
+  margin-top: 40 px;
+  padding: 10px;
+  font-size: 22px;
+  color: #fff;
+  list-style: none;
+}
+footer ul{
+    display: inline-flex;
+}
 
  
  
