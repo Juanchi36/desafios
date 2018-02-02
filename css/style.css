@@ -21,16 +21,13 @@ header{
 	
 	width: 100%;
     text-align: right;
-    padding: 80vh;
+    padding: 90vh;
     padding-top: 20px;
     padding-right: 20px;
     padding-left: 20px;
 
 }
-header nav ul{
-	padding-top: 20px;
-    margin-left: 5px;
-}
+
 
 section{
 	width: 100%;
@@ -48,7 +45,7 @@ section{
 }
 .arthistoria p, .arthistoria p{
 	
-	margin: 60px 20px 0px 60px;
+	margin: 60px 20px 0px 20px;
 }
 
 
@@ -128,6 +125,7 @@ section{
 }
 .artdiscografia h3{
 	font-size: 20px;
+	padding: 0;
 }
 .artdiscografia table{
 	text-align: center;
@@ -142,7 +140,7 @@ h1{
 	
 	font-size: 24px;
 	text-align: right;
-	margin-top: 50px;
+	
 }
 
 nav{
@@ -211,15 +209,26 @@ p{
 	
 
 }
+#estatua{
+	    margin-left: 51px;
+    /* margin-top: 18px; */
+    padding: 20px;
+}
 .histdoble{
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 	padding: 60px;
-	margin-bottom: 20px;
+	background-image: url(../imagenes/fondoNubes.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+
 
 }
 .histdoble p{
-	padding: 0 40px 0 40px;
+	padding: 0 40px 0 10px;
 }
+
 input, textarea{
 	border: 1px solid #DBE1EB;
   	font-size: 18px;
@@ -228,7 +237,7 @@ input, textarea{
   	padding-right: 7px;
   	padding-top: 10px;
   	padding-bottom: 10px;
-  	border-radius: 4px;
+  
 }
 #input{
 	margin-bottom: 22px;
@@ -290,7 +299,9 @@ header nav ul ul li:hover{
 	color: white;
 
 }
-
+th{
+	display: none;
+}
 /* Modifications 13-01 */
 .container {
 	width:960px;
@@ -441,13 +452,13 @@ header nav ul li {
 				/* Table properties */
 
 				table td, table th {
-					border: 3px solid rgba(22, 22, 22, 0.425);
-					font-size: 29px;
-					padding: 20px;
+					border: 1px solid rgba(22, 22, 22, 0.425);
+					font-size: 20px;
+					padding: 12px;
 					
 				}
 				table td{
-					font-size: 24px;
+					
 					font-weight: bold;
 				}
 				table{
