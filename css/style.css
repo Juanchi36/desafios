@@ -1,467 +1,587 @@
-*{
-	margin: 0px;
-	padding: 0px;
-	font-family: 'Poiret One', cursive;
-	color: rgb(0, 0, 0);
-	box-sizing: border-box;
-}
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poiret One', cursive;
+  color: black;
+  box-sizing: border-box; }
 
-body{
-	background-image: url("../imagenes/daddyFondo.jpg");
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-attachment: fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
+body {
+  background-image: url("../imagenes/daddyFondo.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
-header{
-	
-	width: 100%;
-    text-align: right;
-    padding: 90vh;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
+.hdrindx {
+  width: 100%;
+  text-align: right;
+  padding: 90vh;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px; }
 
-}
+.secindx {
+  width: 100%;
+  background-color: #EEE8E8; }
 
+.arthistoria, .arthistoria2 {
+  /*background-color: #C2C2C2;*/
+  width: 50%;
+  text-align: justify;
+  padding-top: 40px;
+  padding-bottom: 20px; }
 
-section{
-	width: 100%;
-	background-color: #EEE8E8;
+.arthistoria p {
+  margin: 60px 20px 0px 20px; }
 
+.arthistoria2 {
+  padding-top: 8px;
+  padding-right: 40px; }
 
-}
-.arthistoria, .arthistoria2{
-	/*background-color: #C2C2C2;*/
-	width: 50%;
-	text-align: justify;
-	padding-top: 40px;
-	padding-bottom: 20px;
+#tithist {
+  text-align: right;
+  padding-bottom: 30px; }
 
-}
-.arthistoria p, .arthistoria p{
-	
-	margin: 60px 20px 0px 20px;
-}
+#titnoticias {
+  text-align: left;
+  display: block;
+  margin-bottom: 45px; }
 
+#ahist {
+  margin-right: 60px; }
 
-.arthistoria2{
-	
-	padding-top: 8px;
-	padding-right: 40px;
-}
-#tithist{
-	text-align: right;
-	padding-bottom: 30px;
-}
-#titnoticias{
-	text-align: left;
-	display: block;
-	margin-bottom: 45px;
-	
-}
-#ahist{
-	padding-right: 60px;
-}
+.artnoticias {
+  display: flex;
+  background-color: #D6D3D3;
+  width: 100%;
+  text-align: left;
+  padding: 40px 140px 80px 140px;
+  overflow: hidden; }
 
+#imgnoti {
+  display: block;
+  margin: auto; }
 
-.artnoticias{
-	display: flex;
-	background-color: #D6D3D3;
-	width: 100%;
-	text-align: left;
-	padding: 40px 140px 80px 140px;
-	overflow: hidden;
+.artnoticias h2 {
+  margin-left: 60px;
+  padding-top: 20px; }
 
+.artnoticias a {
+  margin-left: 60px; }
 
-}
-#imgnoti{
-	display: block;
-	margin: auto;
-}
+.artnoticias p {
+  margin-top: 20px;
+  text-align: justify;
+  padding: 25px; }
 
-.artnoticias h2{
-	
-	margin-left: 60px;
-	padding-top: 20px;
-}
-.artnoticias a{
-	margin-left: 60px;
-	
-}
-.artnoticias p{
-	margin-top: 20px;
-	text-align: justify;
-	padding: 25px;
-}
-.artvideos{
-	background-color: #D6D3D3;
-	width: 100%;
-	padding: 20px;
-	width: 50%;
-	justify-content: space-around;
-	
-}
+.artvideos {
+  background-color: #D6D3D3;
+  width: 100%;
+  padding: 20px;
+  width: 50%;
+  justify-content: space-around; }
+  .artvideos p {
+    margin-top: 20px; }
 
+.artdiscografia {
+  background-color: #C2C2C2;
+  width: 100%;
+  text-align: right;
+  padding: 60px 160px 40px 160px; }
+  .artdiscografia a {
+    margin-right: 60px; }
+  .artdiscografia h3 {
+    font-size: 20px;
+    padding: 0; }
+  .artdiscografia table {
+    text-align: center; }
 
-.artvideos p{
- 	margin-top: 20px;
-}
-.artdiscografia{
-	background-color: #C2C2C2;
-	width: 100%;
-	text-align: right;
-	padding: 60px 160px 40px 160px;
+#discografia {
+  margin-right: 60px;
+  padding-top: 20px; }
 
+h1 {
+  color: black;
+  font-size: 24px;
+  text-align: right; }
 
-}
-.artdiscografia a{
-	margin-right: 60px;
-	
-}
-.artdiscografia h3{
-	font-size: 20px;
-	padding: 0;
-}
-.artdiscografia table{
-	text-align: center;
-}
-#discografia{
-	margin-right: 60px;
-	padding-top: 20px;
-}
+nav {
+  text-align: left;
+  color: black; }
 
-h1{
-	color: black;
-	
-	font-size: 24px;
-	text-align: right;
-	
-}
-
-nav{
-	text-align: left;
-	color: black;
-}
-a{
-	text-decoration: none;
-	font-weight: bold;
-
-}
+a {
+  text-decoration: none;
+  font-weight: bold; }
 
 /*a:hover{
-	font-family: 'Bungee', cursive;
-	color: #3E3C3C;
-	fon
-}*/
+      font-family: 'Bungee', cursive;
+      color: #3E3C3C;
+      fon
+  }*/
 footer {
-  	width: 100%;
-  	padding: 20px;
-  	/*background-color: #C2C2C2;*/
-	text-align: center;
-	 background:-webkit-gradient(linear, 74% 20%, 45% 21%, from(#C5C3C1), to(#000000));
-	opacity: 0.9;
-	
- 	
-}
-footer ul li{
-	margin-top: 40 px;
-	padding: 10px;
-	font-size: 22px;
-	color: #fff;
-}
+  width: 100%;
+  padding: 20px;
+  /*background-color: #C2C2C2;*/
+  text-align: center;
+  background: -webkit-gradient(linear, 74% 20%, 45% 21%, from(#C5C3C1), to(#000000));
+  opacity: 0.9; }
+  footer ul li {
+    margin-top: 40 px;
+    padding: 10px;
+    font-size: 22px;
+    color: #fff; }
 
-li{
-	display: inline-block;
-}
-#historia{
-	margin-right: 60px;
-	padding-top: 20px;
-}
-.aderecho{
-	margin-right: 60px;
-}
-p{
-	font-size: 20px;
-	font-weight: bold;
-	padding: 0 80px 0 80px;
-}
-#form{
-	
-	width: 50%;
-	background-color: #D6D3D3;
-	padding: 38px 20px 40px 20px;
-	justify-content: space-around;
-}
-#form h2{
-	margin-bottom: 20px;
-}
-	
-.doble{
-	display: flex;
-	padding: 60px;
-	justify-content: center;
-	padding: 80px 140px 60px 140px;
-	
+li {
+  display: inline-block; }
 
-}
-#estatua{
-	    margin-left: 51px;
-    /* margin-top: 18px; */
-    padding: 20px;
-}
-.histdoble{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	padding: 60px;
-	background-image: url(../imagenes/fondoNubes.jpg);
-	background-repeat: no-repeat;
-	background-size: 100%;
+#historia {
+  margin-right: 60px;
+  padding-top: 20px; }
 
+.aderecho {
+  margin-right: 60px; }
 
-}
-.histdoble p{
-	padding: 0 40px 0 10px;
-}
+p {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 80px 0 80px; }
 
-input, textarea{
-	border: 1px solid #DBE1EB;
-  	font-size: 18px;
-  	font-family: Arial, Verdana;
-  	padding-left: 7px;
-  	padding-right: 7px;
-  	padding-top: 10px;
-  	padding-bottom: 10px;
-  
-}
-#input{
-	margin-bottom: 22px;
-}
-strong{
-	font-weight: bolder;
-}
-iframe{
-	margin-top: 20px;
-}
-h3{
-	font-size: 1.70em;
-	padding: 25px;
-}
-#noti1, #noti2, #noti3{
-	width: 33%;
-	
-	margin-top: 20px;
-	
-}
-#noti2{
-	border-left: 3px solid rgba(22, 22, 22, 0.425);
-	border-right: 3px solid rgba(22, 22, 22, 0.425);
-	margin-top: 130px;
-}
-#noti3{
-	margin-top: 130px;
-}
+#form {
+  width: 50%;
+  background-color: #D6D3D3;
+  padding: 20px 20px 40px 20px;
+  justify-content: space-around; }
+  #form h2 {
+    margin-bottom: 37px; }
 
+.doble {
+  display: flex;
+  padding: 60px;
+  justify-content: center;
+  padding: 80px 140px 60px 140px; }
+
+#estatua {
+  margin-left: 51px;
+  /* margin-top: 18px; */
+  padding: 20px; }
+
+.histdoble {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 60px;
+  background-image: url(../imagenes/fondoNubes2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%; }
+  .histdoble p {
+    padding: 0 40px 0 10px; }
+
+input, textarea {
+  border: 1px solid #DBE1EB;
+  font-size: 18px;
+  font-family: Arial, Verdana;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+#input {
+  margin-bottom: 22px; }
+
+strong {
+  font-weight: bolder; }
+
+iframe {
+  margin-top: 20px; }
+
+h3 {
+  font-size: 1.70em;
+  padding: 25px; }
+
+#noti1, #noti2, #noti3 {
+  width: 33%;
+  margin-top: 20px; }
+
+#noti2 {
+  border-left: 3px solid rgba(22, 22, 22, 0.425);
+  border-right: 3px solid rgba(22, 22, 22, 0.425);
+  margin-top: 130px; }
+
+#noti3 {
+  margin-top: 130px; }
 
 /*menu desplegable*/
-header nav ul ul{
-	display: none;
-}
-header nav ul .lidisc{
-	position: relative;
-}
-header nav ul ul{
-	position: absolute;
-}
+header nav ul ul {
+  display: none; }
 
-header nav ul .lidisc:hover ul{
-	display: block;
-}
-header nav ul ul li a{
-	white-space: nowrap;
-}
+header nav ul .lidisc {
+  position: relative; }
 
-a:hover{
-	background-color: black;
-	color: white;
-}
-header nav ul ul li{
-	display: block;
-}
+header nav ul ul {
+  position: absolute; }
 
-header nav ul ul li:hover{
-	background-color: black;
-	color: white;
+header nav ul .lidisc:hover ul {
+  display: block; }
 
-}
-th{
-	display: none;
-}
+header nav ul ul li a {
+  white-space: nowrap; }
+
+a:hover {
+  background-color: black;
+  color: white; }
+
+header nav ul ul li {
+  display: block; }
+  header nav ul ul li:hover {
+    background-color: black;
+    color: white; }
+
+th {
+  display: none; }
+
 /* Modifications 13-01 */
 .container {
-	width:960px;
-	margin:auto;
-}
+  width: 960px;
+  margin: auto; }
+
 a {
-	outline:none;
-}
+  outline: none; }
 
 @keyframes bounceInLeft {
-	from, 60%, 75%, 90%, to {
-	  animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-	}
-  
-	0% {
-	  opacity: 0;
-	  transform: translate3d(-3000px, 0, 0);
-	}
-  
-	60% {
-	  opacity: 1;
-	  transform: translate3d(25px, 0, 0);
-	}
-  
-	75% {
-	  transform: translate3d(-10px, 0, 0);
-	}
-  
-	90% {
-	  transform: translate3d(5px, 0, 0);
-	}
-  
-	to {
-	  transform: none;
-	}
-  }
-#da{
-	animation-name: bounceInLeft;
-	animation-duration: 1s;
-	position: absolute;
-    bottom: 10%;
-    left: 90px;
-    /* right: 0; */
-    /* margin: auto; */
-    text-align: center;
-    width: 800px;
-    font-size: 123px;
-    color: #b0b0b0;
-    text-shadow: 7px 0px 2px #000;
-    font-family: 'Sedgwick Ave Display', cursive;
-	letter-spacing: 6px;
-	
-}
+  from, 60%, 75%, 90%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  0% {
+    opacity: 0;
+    transform: translate3d(-3000px, 0, 0); }
+  60% {
+    opacity: 1;
+    transform: translate3d(25px, 0, 0); }
+  75% {
+    transform: translate3d(-10px, 0, 0); }
+  90% {
+    transform: translate3d(5px, 0, 0); }
+  to {
+    transform: none; } }
+
+#da {
+  animation-name: bounceInLeft;
+  animation-duration: 1s;
+  position: absolute;
+  bottom: 10%;
+  left: 90px;
+  /* right: 0; */
+  /* margin: auto; */
+  text-align: center;
+  width: 800px;
+  font-size: 123px;
+  color: #b0b0b0;
+  text-shadow: 7px 0px 2px #000;
+  font-family: 'Sedgwick Ave Display', cursive;
+  letter-spacing: 6px; }
+
 @keyframes bounceInRight {
-	from, 60%, 75%, 90%, to {
-	  animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-	}
-  
-	from {
-	  opacity: 0;
-	  transform: translate3d(3000px, 0, 0);
-	}
-  
-	60% {
-	  opacity: 1;
-	  transform: translate3d(-25px, 0, 0);
-	}
-  
-	75% {
-	  transform: translate3d(10px, 0, 0);
-	}
-  
-	90% {
-	  transform: translate3d(-5px, 0, 0);
-	}
-  
-	to {
-	  transform: none;
-	}
-  }
-#ya{
-	animation-name: bounceInRight;
-	animation-duration: 1s;
-	position: absolute;
-    bottom: 10%;
-    left: 500px;
-    /* right: 0; */
-    /* margin: auto; */
+  from, 60%, 75%, 90%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  from {
+    opacity: 0;
+    transform: translate3d(3000px, 0, 0); }
+  60% {
+    opacity: 1;
+    transform: translate3d(-25px, 0, 0); }
+  75% {
+    transform: translate3d(10px, 0, 0); }
+  90% {
+    transform: translate3d(-5px, 0, 0); }
+  to {
+    transform: none; } }
+
+#ya {
+  animation-name: bounceInRight;
+  animation-duration: 1s;
+  position: absolute;
+  bottom: 10%;
+  left: 500px;
+  /* right: 0; */
+  /* margin: auto; */
+  text-align: center;
+  width: 800px;
+  font-size: 123px;
+  color: #b0b0b0;
+  text-shadow: 7px 0px 2px #000;
+  font-family: 'Sedgwick Ave Display', cursive;
+  letter-spacing: 6px; }
+
+header {
+  padding-top: 0;
+  padding-right: 0;
+  padding-left: 0;
+  position: relative; }
+  header nav ul {
     text-align: center;
-    width: 800px;
-    font-size: 123px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px; }
+    header nav ul li {
+      text-transform: uppercase; }
+  header > nav > ul > li > a {
+    font-size: 20px;
+    padding: 10px 12px;
+    letter-spacing: 5px;
+    color: #fff; }
+  header > nav > ul ul {
+    background-color: #fff; }
+    header > nav > ul ul li {
+      margin-bottom: 10px;
+      text-align: left; }
+      header > nav > ul ul li:hover {
+        background-color: transparent; }
+      header > nav > ul ul li a {
+        display: block;
+        padding: 6px 14px;
+        letter-spacing: 3px;
+        font-size: 13px; }
+        header > nav > ul ul li a:hover {
+          background-color: #000;
+          color: #fff; }
+
+/* Table properties */
+table {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  table td, table th {
+    border: 1px solid rgba(22, 22, 22, 0.425);
+    font-size: 20px;
+    padding: 12px; }
+  table td {
+    font-weight: bold; }
+
+/* Galeria Style */
+.galeria {
+  background-image: url("../imagenes/daddyFondo.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  .galeria h1 {
+    text-align: center;
+    font-size: 70px;
     color: #b0b0b0;
     text-shadow: 7px 0px 2px #000;
     font-family: 'Sedgwick Ave Display', cursive;
     letter-spacing: 6px;
-}
-
-header {
-	padding-top: 0;
-    padding-right: 0;
-	padding-left: 0;
-	position: relative;
-}
-
-header nav ul{
-	text-align:center;
-	background: rgba(0, 0, 0, 0.6);
-	
+    background: rgba(0, 0, 0, 0.6); }
+  .galeria h2 {
+    margin-left: 100px;
+    margin-top: 15px;
+    float: left;
+    font-weight: bold; }
+  .galeria header nav a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    float: right;
+    margin-right: 130px;
+    margin-top: 15px;
+    color: #000; }
+    .galeria header nav a:hover {
+      background-color: #000;
+      color: #ffffff;
+      text-decoration: none; }
+  .galeria .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 160px);
+    grid-template-rows: repeat(5, 160px);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    margin-top: 235px;
+    margin-left: 280px; }
+    .galeria .grid div {
+      justify-content: center;
+      align-self: center; }
+      .galeria .grid div img {
+        opacity: 0.85; }
+  .galeria footer {
+    width: 100%;
     padding: 20px;
-}
+    /*background-color: #C2C2C2;*/
+    text-align: center;
+    background: -webkit-gradient(linear, 74% 20%, 45% 21%, from(#C5C3C1), to(#000000));
+    opacity: 0.9; }
+    .galeria footer ul {
+      display: inline-flex; }
+      .galeria footer ul li {
+        margin-top: 40 px;
+        padding: 10px;
+        font-size: 22px;
+        color: #fff;
+        list-style: none; }
+  .galeria .btn-primary {
+    color: #fff;
+    background-color: #b0b0b0;
+    border-color: #b0b0b0; }
+    .galeria .btn-primary:hover {
+      color: #fff;
+      background-color: #333435;
+      border-color: #333435; }
+    .galeria .btn-primary:focus {
+      box-shadow: 0 0 0 0.2rem rgba(24, 24, 25, 0.5); }
+  .galeria footer ul li a {
+    text-decoration: none;
+    color: #000; }
+    .galeria footer ul li a:hover {
+      text-decoration: none;
+      color: #fff;
+      background-color: #000; }
 
-header nav ul li {		
-	text-transform:uppercase;
-}
+/*Conciertos Style*/
+.conciertos h2 {
+  font-size: 38px; }
 
-	header > nav > ul > li > a{		
-		font-size:21px;
-		padding: 10px 12px;
-		letter-spacing: 5px;
-		color:#fff;
-	}
+.conciertos section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px; }
+  .conciertos section div {
+    border: 1px solid #333435;
+    padding: 30px;
+    text-align: justify;
+    margin-bottom: 5px; }
+    .conciertos section div p {
+      padding: 20px;
+      font-size: 18px;
+      margin-top: 20px; }
+    .conciertos section div h3 {
+      padding: 0 10px 10px 10px;
+      text-align: left; }
+    .conciertos section div h4 {
+      text-align: right;
+      margin-right: 20px;
+      color: #fff;
+      background-color: #333435;
+      display: inline-block;
+      float: right;
+      padding: 5px; }
 
-	header > nav > ul ul {
-		background-color:#fff;
-	}
+@media only screen and (max-width: 400px) {
+  .conciertos {
+    background-color: #b0b0b0;
+    background-image: none; }
+    .conciertos #hidden {
+      display: none;
+      background-color: #000; }
+      .conciertos #hidden > ul {
+        display: grid; }
+      .conciertos #hidden ul li a {
+        color: #fff; }
+        .conciertos #hidden ul li a:hover {
+          color: #050505;
+          background-color: #b0b0b0; }
+    .conciertos header {
+      margin: 0;
+      text-align: center; }
+    .conciertos .visible {
+      display: inline-flex;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      margin: 0;
+      padding: 0; }
+      .conciertos .visible img {
+        padding: 21px 5px 20px 10px; }
+    .conciertos a:focus + #hidden {
+      display: block;
+      position: absolute; }
+    .conciertos header h1 {
+      color: #b0b0b0;
+      text-shadow: 7px 0px 2px #000;
+      font-family: 'Sedgwick Ave Display', cursive;
+      letter-spacing: 2px;
+      margin-left: 10px;
+      padding: 20px;
+      font-size: 30px; }
+    .conciertos header h2 {
+      padding: 10px; }
+    .conciertos footer {
+      background: #000; }
+      .conciertos footer a {
+        color: #fff; }
+        .conciertos footer a:hover {
+          background-color: #b0b0b0;
+          color: #000; } }
 
-		header > nav > ul ul li{
-			margin-bottom: 10px;
-			text-align: left;
-		}
-			
-			header > nav > ul ul li:hover {
-				background-color:transparent;	
-			}
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .conciertos a img, .conciertos header img {
+    display: none; }
+  .conciertos section {
+    background-color: #b0b0b0;
+    margin-top: 30px; }
+    .conciertos section div {
+      flex-basis: 50%; }
+  .conciertos #hidden ul {
+    padding: 15px; }
+    .conciertos #hidden ul li a {
+      color: #fff;
+      letter-spacing: 2px; }
+  .conciertos h1 {
+    color: #726f6f;
+    text-shadow: 7px 0px 2px #000;
+    font-family: 'Sedgwick Ave Display', cursive;
+    letter-spacing: 2px;
+    padding: 10px;
+    font-size: 35px;
+    text-align: left; }
+  .conciertos h2 {
+    text-align: right;
+    margin-right: 10px;
+    font-size: 30px;
+    margin-top: 150px; }
+  .conciertos footer {
+    background: #000; }
+    .conciertos footer a {
+      color: #fff; }
+      .conciertos footer a:hover {
+        background-color: #b0b0b0;
+        color: #000; } }
 
-				header > nav > ul ul li a {
-					display:block;
-					padding: 6px 14px;
-					letter-spacing: 3px;
-					font-size: 13px;
-				}
-
-				header > nav > ul ul li a:hover {
-					background-color:#000;
-					color:#fff;
-				}
-
-				/* Table properties */
-
-				table td, table th {
-					border: 1px solid rgba(22, 22, 22, 0.425);
-					font-size: 20px;
-					padding: 12px;
-					
-				}
-				table td{
-					
-					font-weight: bold;
-				}
-				table{
-					padding-top: 40px;
-					padding-bottom: 40px;
-				}
+@media screen and (min-width: 961px) {
+  .conciertos a img, .conciertos header img {
+    display: none; }
+  .conciertos section {
+    background-color: #b0b0b0;
+    margin-top: 30px;
+    padding: 20px 140px 20px 140px; }
+    .conciertos section div {
+      flex-basis: 100%; }
+  .conciertos #hidden ul {
+    padding: 30px;
+    word-spacing: 30px; }
+    .conciertos #hidden ul li a {
+      color: #fff;
+      letter-spacing: 3px;
+      font-size: 25px; }
+  .conciertos h1 {
+    color: #726f6f;
+    text-shadow: 7px 0px 2px #000;
+    font-family: 'Sedgwick Ave Display', cursive;
+    letter-spacing: 2px;
+    padding: 10px;
+    font-size: 65px;
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 70px; }
+  .conciertos h2 {
+    text-align: left;
+    margin-left: 140px;
+    font-size: 40px;
+    margin-top: 150px; }
+  .conciertos footer {
+    background: #000; }
+    .conciertos footer a {
+      color: #fff; }
+      .conciertos footer a:hover {
+        background-color: #b0b0b0;
+        color: #000; } }

@@ -1,0 +1,119 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Poiret One', cursive;
+	color: rgb(0, 0, 0);
+	box-sizing: border-box;
+}
+body{
+	background-image: url("../imagenes/daddyFondo.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    color: #b0b0b0;
+    text-shadow: 7px 0px 2px #000;
+    font-family: 'Sedgwick Ave Display', cursive;
+    letter-spacing: 6px;
+    background: rgba(0, 0, 0, 0.6);
+    
+}
+h2{
+    margin-left: 100px;
+    margin-top: 15px;
+    float: left;
+    font-weight: bold;
+}
+header nav a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    float: right;
+    margin-right: 130px;
+    margin-top: 15px;
+    color: #000;
+}
+header nav a:hover{
+    background-color: #000;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.grid {
+    display: grid;   
+    grid-template-columns: repeat(5, 160px);
+    grid-template-rows: repeat(5, 160px);
+    grid-column-gap:5px;
+    grid-row-gap: 5px;
+    margin-top: 235px;
+    margin-left: 280px;
+    
+
+
+    
+}
+.grid div{
+    justify-content: center;
+    align-self: center;
+}
+.grid div img{
+    opacity: 0.85;
+}
+footer {
+    width: 100%;
+    padding: 20px;
+    /*background-color: #C2C2C2;*/
+  text-align: center;
+   background:-webkit-gradient(linear, 74% 20%, 45% 21%, from(#C5C3C1), to(#000000));
+  opacity: 0.9;
+  
+   
+}
+footer ul li{
+  margin-top: 40 px;
+  padding: 10px;
+  font-size: 22px;
+  color: #fff;
+  list-style: none;
+}
+footer ul{
+    display: inline-flex;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #b0b0b0;
+    border-color: #b0b0b0;
+    
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #333435;
+    border-color: #333435;
+}
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(24, 24, 25, 0.5);
+}
+footer ul li a{
+    text-decoration: none;
+    color: #000;
+
+
+}
+footer ul li a:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+
+
+}
+ 
